@@ -29,9 +29,3 @@
 - ☁️ Đồng bộ dữ liệu với Google Drive
 - 🔔 Nhắc nhở chi tiêu định kỳ
 - 🧠 Gợi ý kế hoạch chi tiêu bằng AI
-
-## ✅ Cách Cài Đặt
-
-1. Clone project:
-   ```bash
-   git clone https://github.com/your-username/quan-ly-thu-chi.git
