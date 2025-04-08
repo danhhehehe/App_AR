@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listviewdh"
+    android:padding="16dp">
+
+    <!-- Ngày Đặt Hàng -->
+    <LinearLayout
+        android:id="@+id/layoutMahd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã đơn hàng:"
+            android:textSize="14sp"
+            android:textColor="#F30C0C"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtMahd"
+            android:textColor="#F30C0C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <!-- Tên Khách Hàng -->
+    <LinearLayout
+        android:id="@+id/layoutTenKh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layoutMahd"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:textColor="#0C96F3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên Khách Hàng:"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtTenKh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Địa Chỉ -->
+    <LinearLayout
+        android:id="@+id/layoutDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layoutTenKh"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:textColor="#0C96F3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Địa Chỉ:"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtDiaChi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <!-- Số Điện Thoại -->
+    <LinearLayout
+        android:id="@+id/layoutSdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layoutDiaChi"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số Điện Thoại:"
+            android:textSize="14sp"
+            android:textColor="#0C96F3"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtSdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+    <!-- Tổng Thanh Toán -->
+    <LinearLayout
+        android:id="@+id/layoutTongThanhToan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layoutSdt"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng Thanh Toán:"
+            android:textSize="14sp"
+            android:textColor="#0C96F3"
+            android:textStyle="bold" />
+        <TextView
+            android:textColor="#FB0000"
+            android:id="@+id/txtTongThanhToan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp" />
+        <TextView
+            android:textColor="#FB0000"
+        android:text="đ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp" />
+
+
+    </LinearLayout>
+
+    <!-- Ngày Đặt Hàng -->
+    <LinearLayout
+        android:id="@+id/layoutNgayDatHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layoutTongThanhToan"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày Đặt Hàng:"
+            android:textSize="14sp"
+            android:textColor="#0C96F3"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtNgayDatHang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imgxoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/xoa1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="290dp"
+        />
+    <ImageButton
+        android:id="@+id/imgnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/next"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="290dp"
+        />
+</RelativeLayout>
