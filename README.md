@@ -1,7 +1,4 @@
-# 📱 Ứng Dụng Quản Lý Thu Chi Cá Nhân
-
-Ứng dụng Android giúp người dùng theo dõi thu nhập và chi tiêu hàng ngày, hỗ trợ thống kê trực quan và phân loại giao dịch. Phù hợp với mọi đối tượng muốn kiểm soát tài chính cá nhân hiệu quả.
-
+# 📱 Ứng Dụng 
 ## 🛠 Công Nghệ Sử Dụng
 
 - **Ngôn ngữ:** Java
